@@ -1,0 +1,79 @@
+﻿.idea
+.vscode
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+.vs
+**/.vs
+obj
+**/obj
+bin
+**/bin
+local.settings.json
+/.vs
+/ESkattAPI/.vs
+/ESkattAPI/ESkattAPI/bin/Debug/netcoreapp2.1
+/ESkattAPI/ESkattAPI/obj
+/ESkattAPI/ESkattAPI.IntegrationTests/bin/Debug/netcoreapp2.1
+/ESkattAPI/ESkattAPI.IntegrationTests/obj
+/ESkattAPI/ESkattAPI.ServiceHealth/obj
+/ESkattAPI/ESkattAPI.ServiceHealth/bin/Debug/netcoreapp2.1
+/ESkattAPI/ESkatt.ApplicationModel/obj
+/ESkattAPI/ESkatt.ApplicationModel/bin/Debug/netcoreapp2.1
+/ESkattAPI/ESkatt.CoreModel/obj
+/ESkattAPI/ESkatt.CoreModel/bin/Debug/netcoreapp2.1
+/ESkattAPI/ESkattAPI.Infrastructure/obj
+/ESkattAPI/ESkattAPI.Infrastructure/bin/Debug/netcoreapp2.1
+
+bin
+obj
+packages
+TestResults
+/Functions/.vs
+.user
+**.user
+**/*.user.fsx
+**/*.user.json
+.user.json
+
+*.sample.html
+*.sample.md
+
+.DS_Store
+ESkattAPI/ESkattAPI/Properties/PublishProfiles
+Functions/Eskatt.FritakEventFunctions/Properties/PublishProfiles
+KT.Fritak/KT.Fritak.API/Properties/PublishProfiles/FritakDevAPI - Web Deploy.pubxml
+KT.Fritak/ConsoleTestingApp/appsettings.Development.json
+**/*.Development.json
+/Functions/KT.Fritak.EventFunctions/Properties/PublishProfiles
+
+.ionide
+/DocumentTemplate/DocumentTemplates.BatchProcessingApp/Properties/PublishProfiles
+/DocumentTemplate/DocumentTemplate.Tests/UnitTests/BatchProcessing
+.cache
+.suo
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
